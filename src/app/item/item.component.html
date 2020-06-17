@@ -1,0 +1,5 @@
+<div>{{item.id}}</div>
+<div>{{item.name}}</div>
+<div>{{item.price}}</div>
+<div>{{item.quantity}}</div>
+<button *ngIf="!item.orderedQuantity" (click)="add(item)">Add</button>
